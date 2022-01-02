@@ -1,17 +1,47 @@
-header {
+    a {
+    text-decoration: none;
+   }
+    header {
     position: fixed; /* Фиксированное позиционирование */
     left: 0; right: 0; /* Вся ширина */
     top: 0; /* Положение сверху */
     padding: 10px; /* Поля вокруг текста */
-    background: #3989c9; /* Цвет фона */
-    color: #fff; /* Цвет текста */
+    background: #9fbbd3; /* Цвет фона */
+    color: rgb(0, 0, 0); /* Цвет текста */
    }
-   header h1 {
+   header h1  {
     margin: 0; /* Убираем отступы */
-    justify-content: center;
+    text-align: center;
+    font-family: 'Cairo';  
+   }
+   header h3  {
+    margin: 0; /* Убираем отступы */
+    text-align: center;
+    font-family: 'Cairo';
    }
    main {
     min-height: 1000px; /* Минимальная высота */
-    margin-top: 70px; /* Отступ сверху */
+    margin-top: 150px; /* Отступ сверху */
     display: block; /* Для IE */
+   }
+   main td {
+     text-align: center;
+     font-family: "Cairo";
+   }
+   footer {
+    position: relative; /* Фиксированное позиционирование */
+    left: 0; right: 0; /* Вся ширина */
+    bottom: 0; /* Положение сверху */
+    padding: 10px; /* Поля вокруг текста */
+    background: #4b555e; /* Цвет фона */
+    color: rgb(0, 0, 0); /* Цвет текста */
+   }
+   footer div.reg { 
+       text-align: right;  
+       color: rgb(0, 0, 0);             /*Information in footer */
+       font-family: "Cairo";
+       font-size: 150%;
+   }
+   footer div.pic {
+       text-align: left ;
    }

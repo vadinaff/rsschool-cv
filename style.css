@@ -45,3 +45,9 @@
    footer div.pic {
        text-align: left ;
    }
+   footer div.res { 
+    text-align: center;  
+    color: rgb(0, 0, 0);             /*Information in footer */
+    font-family: "Cairo";
+    font-size: 150%;
+}

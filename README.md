@@ -1,2 +1,1 @@
-# rsschool-cv
-CV for RSSchool
+https://vadinaff.github.io/rsschool-cv/

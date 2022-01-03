@@ -1,5 +1,7 @@
-    a {
+    a,
+    a :active {
     text-decoration: none;
+    color: #666;
    }
     header {
     position: fixed; /* Фиксированное позиционирование */
@@ -23,6 +25,11 @@
     min-height: 1000px; /* Минимальная высота */
     margin-top: 150px; /* Отступ сверху */
     display: block; /* Для IE */
+   }
+   header nav {
+    margin: 0; /* Убираем отступы */
+    text-align: center;
+    font-family: 'Cairo';
    }
    main td {
      text-align: center;
@@ -50,4 +57,10 @@
     color: rgb(0, 0, 0);             /*Information in footer */
     font-family: "Cairo";
     font-size: 150%;
+}
+a.anchor {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
 }
